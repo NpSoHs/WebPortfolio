@@ -6,7 +6,7 @@ export const Skill = ({ isMouseEnter, data }) => {
           return (
             <div
               key={`skill-${e}`}
-              className={`bg-primarySubContent px-2 py-1 rounded-md ${
+              className={`bg-primarySubContent text-white px-2 py-1 rounded-md ${
                 isMouseEnter ? "text-primaryTitle" : ""
               } `}
             >

@@ -9,7 +9,6 @@ const RightSection = () => {
       <ContentContainer title={"Experience"} data={data}/>
       <ContentContainer title={"Project"} data={data}/>
       <ContentContainer title={"Article"} data={data}/>
-      <ContentContainer title={"eiei"} data={data}/>
     </div>
   );
 };

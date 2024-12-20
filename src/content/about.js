@@ -1,4 +1,4 @@
 export const Aboutdata = {
     title :"About",
-    description:"Driven by a deep passion for technology, I undertook a journey of self-study and career transtion. With a strong foundation in computer science, extensive knowledge of web development technologies, and growing expertise in blockchain, I am actively seeking opportunities to make a meaningful impact as a developer in the ever-evolving world of technology"
+    description:" I am a computer engineering student seeking a Fullstack Development internship to enhance my skills and apply classroom knowledge to real-world challenges. I am committed to contributing valuable results to your organization."
 }

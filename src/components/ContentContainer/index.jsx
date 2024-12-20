@@ -10,7 +10,7 @@ const ContentContainer = ({title,data}) => {
     const [isMouseEnter , setIsMouseEnter] = useState({})  
     return (  
       <div id={`content-${title}`} className="scroll-m-14">
-          <div>{title}</div>
+          <div className="text-primaryAccent">{title}</div>
           {
               data.map(({
                   date="",
@@ -26,7 +26,7 @@ const ContentContainer = ({title,data}) => {
                   return(
                       <div
                       key={keyprop}
-                      className={`grid grid-cols-[25%_75%] ${isMouseEnter[key]? "bg-[#636e775c]  transition-all duration-500":""} px-2 py-6 rounded-md `}
+                      className={`grid grid-cols-[25%_75%] ${isMouseEnter[key]? "bg-[#de9fae5c]  transition-all duration-500":""} px-2 py-6 rounded-md `}
                       onMouseEnter={()=>setIsMouseEnter({[key]:true})}
                       onMouseLeave={()=>setIsMouseEnter({[key]:false})}
                   >

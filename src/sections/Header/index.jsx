@@ -8,9 +8,9 @@ const Header = () => {
               <div className='text-primaryTitle text-4xl font-semibold'>{data.name}</div>
               <div className='text-primaryAccent font-semibold'>{data.title}</div>
               <div className='text-sm w-5/6'>{data.caption}</div>
-              <a href="#">
+              <a href="/public/resume.pdf" target="_blank" rel="noreferrer">
                 <div className='mt-3'>
-                  <span className='bg-primaryTitle text-gray-300 px-3 py-2 rounded-md'>
+                  <span className='bg-primaryTitle text-white px-3 py-2 rounded-md'>
                     {data.BnContent}
                     <span className='rotate-90 inline-block ml-1'>
                       <FontAwesomeIcon className=' animate-bounce ' icon={faArrowAltCircleDown} />

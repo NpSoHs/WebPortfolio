@@ -1,6 +1,6 @@
 export const data = {
     name:"Pitchaya Moleenon",
-    title:"FullStack Developer Internshhip",
-    caption:"From concept to reality, bridging the gap with code. transforming ideas into tongible digital solutions.",
+    title:"Computer Engineering Student | looking for internship",
+    caption:"Eager to grow, innovate, and make an impact in the world of technology and engineering.",
     BnContent:"View Resume"
 }

@@ -16,7 +16,7 @@ const Navbar = () => {
     document.getElementById(sectionId).scrollIntoView({behavior:"smooth"})
   };
   return (
-    <div className="flex flex-col font-semibold"    
+    <div className="lg:flex-col font-semibold hidden lg:flex"    
     >
       {navs.map((e, i) => (
         <div 
