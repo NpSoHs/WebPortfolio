@@ -1,5 +1,6 @@
 import { faFacebook, faGithub } from "@fortawesome/free-brands-svg-icons"
 import Picture  from "../assets/epay.png"
+import DataPicture  from "../assets/dataProject.png"
 export const data = [
     {
         date:"2022-2023",
@@ -30,5 +31,22 @@ export const data = [
             ["Next","TailwindCSS"],
             ["NodeJS","MongoDB","ExpressJS"]
         ]
+    }
+]
+
+export const projectData = [
+    {
+        date:"2024-2025",
+        picture:DataPicture,
+        titleLink:{
+            title:"Geospatial Analysis of Author Location",
+            link:"https://kwinboss-dsde-project-visualize-cobfyc.streamlit.app/"
+        },
+        material:[
+            {link:"https://github.com/NpSoHs/dsdeProject", icon:faGithub},
+            {link:"https://www.facebook.com/profile.php?id=100017634035806", icon:faFacebook}
+        ],
+        description:"เป็นVisualization ของข้อมูลที่เกี่ยวกับการวิเคราะห์พิกัดของผู้เขียน",
+        skill:[["Streamlit","python"]]
     }
 ]
