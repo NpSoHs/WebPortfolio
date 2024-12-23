@@ -8,7 +8,7 @@ const Header = () => {
               <div className='text-primaryTitle text-4xl font-semibold'>{data.name}</div>
               <div className='text-primaryAccent font-semibold'>{data.title}</div>
               <div className='text-sm w-5/6'>{data.caption}</div>
-              <a href="/src/assets/resume.pdf" target="_blank" rel="noreferrer">
+              <a href="/resume.pdf" target="_blank" rel="noreferrer">
                 <div className='mt-3'>
                   <span className='bg-primaryTitle text-white px-3 py-2 rounded-md'>
                     {data.BnContent}
