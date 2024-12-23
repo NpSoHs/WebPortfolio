@@ -6,7 +6,7 @@ const navs = [
   { title: "About", sectionId: "content-About" },
   { title: "Experience", sectionId: "content-Experience" },
   { title: "Project", sectionId: "content-Project" },
-  { title: "Article", sectionId: "content-Article" },
+  // { title: "Article", sectionId: "content-Article" },
 ];
 
 const Navbar = () => {

@@ -8,7 +8,7 @@ const RightSection = () => {
       <About/>
       <ContentContainer title={"Experience"} data={data}/>
       <ContentContainer title={"Project"} data={projectData}/>
-      <ContentContainer title={"Article"} data={data}/>
+      {/* <ContentContainer title={"Article"} data={data}/> */}
     </div>
   );
 };
