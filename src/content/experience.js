@@ -8,16 +8,17 @@ export const data = [
         date:"2022-2023",
         picture:Picture,
         titleLink:{
-            title:"E-pay Servicess",
+            title:"E-pay Services",
             link:"/"
         },
         material:[
             {link:"https://github.com/NpSoHs", icon:faGithub},
             {link:"https://www.facebook.com/profile.php?id=100017634035806", icon:faFacebook}
         ],
-        description:"เป็นระบบที่เกี่ยวกับการชำระเงินออนไลน์ เพื่อไปเชื่อมกับ payment gateway ของบริษัท แต่ไม่สามารถเปิดเผยได้คับ",
+        description:"ระบบชำระเงินออนไลน์ที่เชื่อมต่อกับ Payment Gateway ของบริษัท โดยเนื้อหารายละเอียดเพิ่มเติมไม่สามารถเปิดเผยได้เนื่องจากข้อกำหนดด้านความลับ",
         skill:[["React","Mui"]]
-    },{
+    },
+    {
         date:"2022-2023",
         picture:CoWorkPicture,
         titleLink:{
@@ -28,7 +29,7 @@ export const data = [
             {link:"https://github.com/2110503TACEDT66/cedt-se-project-mewing-komkom", icon:faGithub},
             {link:"https://www.facebook.com/profile.php?id=100017634035806", icon:faFacebook}
         ],
-        description:"เป็นระบบจองco-working space ",
+        description:"ระบบจองพื้นที่ Co-working Space ที่ช่วยอำนวยความสะดวกในกระบวนการจองพื้นที่ใช้งาน",
         skill:[
             ["Next","TailwindCSS"],
             ["NodeJS","MongoDB","ExpressJS"]
@@ -47,7 +48,7 @@ export const projectData = [
         material:[
             {link:"https://github.com/NpSoHs/TodoList-Next.js-", icon:faGithub},
         ],
-        description:"เป็นtodo list โดยใช้nextjs react redux",
+        description:"แอปพลิเคชัน Todo List ที่พัฒนาด้วย Next.js, React, Redux และ TypeScript เพื่อการจัดการสถานะอย่างมีประสิทธิภาพ",
         skill:[["typescript","redux","nextjs"]]
     },
     {
@@ -60,8 +61,7 @@ export const projectData = [
         material:[
             {link:"https://github.com/NpSoHs/dsdeProject", icon:faGithub},
         ],
-        description:"เป็นVisualization ของข้อมูลที่เกี่ยวกับการวิเคราะห์พิกัดของผู้เขียน",
+        description:"โปรเจกต์การแสดงผลข้อมูลเชิงภาพ (Visualization) ที่วิเคราะห์พิกัดทางภูมิศาสตร์ของผู้เขียนโดยใช้ Python และ Streamlit",
         skill:[["Streamlit","python"]]
     }
-    
 ]
